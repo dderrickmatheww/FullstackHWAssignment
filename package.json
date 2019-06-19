@@ -1,0 +1,27 @@
+{
+  "name": "fullstackhwassignment",
+  "version": "1.0.0",
+  "description": "This is a homework assignment for Availity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dderrickmatheww/FullstackHWAssignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dderrickmatheww/FullstackHWAssignment/issues"
+  },
+  "homepage": "https://github.com/dderrickmatheww/FullstackHWAssignment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "http": "0.0.0"
+  }
+}
