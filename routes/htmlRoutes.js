@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', function(req, res) {
         res.render('index', {
             title: 'Availitys Fullstack Homework Assignment: 1-3',
-            discript: 'This page will display answers to numbers 1 through 3 from Availity Fullstack Homework Assignment'
+            discript: 'This page will display answers to numbers 1 through 3 from Availity Fullstack Homework Assignment',
         });
 });
 
