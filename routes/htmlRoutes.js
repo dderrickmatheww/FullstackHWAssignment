@@ -1,5 +1,5 @@
 var express = require("express");
-var parenthesesAreBalanced = require('../assets/script/script');
+var parenthesesAreBalanced = require('../assets/script/Act3');
 var router = express.Router();
 
 
@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
             title: 'Availitys Fullstack Homework Assignment: 1-3',
             discript: 'This page will display answers to numbers 1 through 3 from Availity Fullstack Homework Assignment'
         });
-    });
+});
 
 
 router.get("/part2", function(req, res) {
